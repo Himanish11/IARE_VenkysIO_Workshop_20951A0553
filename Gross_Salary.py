@@ -1,0 +1,9 @@
+Gross_Salary=float(input())
+No_of_Weeks=int(input())
+Federal_Deduction=float(input())
+State_Deduction=float(input())
+Pension_Plan=float(input())
+Total_Gross_Salary=No_of_Weeks*Gross_Salary
+Total_Deductions=Federal_Deduction+State_Deduction+Pension_Plan
+Net_Salary=Total_Gross_Salary-(((Total_Deductions)/100)*Total_Gross_Salary)
+print(Net_Salary)
